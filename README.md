@@ -19,6 +19,7 @@ A simple module used to add FLAG_SECURE to the main activity. FLAG_SECURE preven
 	```groovy
   compile project(':react-native-flag-secure-android')
   ```
+
 ## Usage
 
 ```jsx
