@@ -1,0 +1,25 @@
+{
+  "name": "react-native-flag-secure-android",
+  "version": "1.0",
+  "description": "A simple module used to add FLAG_SECURE to the main activity. Android",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristiansorens/react-native-flag-secure-android.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristiansorens/react-native-flag-secure-android/issues"
+  },
+  "homepage": "https://github.com/kristiansorens/react-native-flag-secure-android#readme",
+  "keywords": [
+    "react-native",
+    "android",
+    "FLAG_SECURE",
+    "secure",
+    "screen",
+    "lock",
+    "sleep"
+  ],
+  "author": "Kristian Sørensen",
+  "license": "MIT"
+}
