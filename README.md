@@ -24,13 +24,13 @@ A simple module used to add FLAG_SECURE to the main activity. FLAG_SECURE preven
 
 ```jsx
 
-import KeepAwake from 'react-native-keep-awake';
+import FlagSecure from 'react-native-flag-secure-android';
 
-function changeKeepAwake(shouldBeAwake) {
-  if (shouldBeAwake) {
-    KeepAwake.activate();
+function flagSecure(enable) {
+  if (enable) {
+    FlagSecure.activate();
   } else {
-    KeepAwake.deactivate();
+    FlagSecure.deactivate();
   }
 }
 
