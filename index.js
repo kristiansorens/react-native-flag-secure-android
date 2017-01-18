@@ -1,5 +1,8 @@
 /* @flow */
 
+// Adapted from
+// https://github.com/corbt/react-native-keep-awake
+
 import React, { Component } from 'react'
 import { NativeModules } from 'react-native'
 

@@ -1,5 +1,5 @@
 // Adapted from
-// https://github.com/gijoehosaphat/react-native-keep-screen-on
+// https://github.com/corbt/react-native-keep-awake
 
 package com.kristiansorens.flagsecure;
 
@@ -43,7 +43,7 @@ public class FlagSecure extends ReactContextBaseJavaModule {
             activity.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    activity.getWindow().clearFlags(android.view.WindowManager.LayoutParams.FLAG_SECURE);
+                    activity.getWindow().clearFlags(WindowManager.LayoutParams.FLAG_SECURE);
                 }
             });
         }
