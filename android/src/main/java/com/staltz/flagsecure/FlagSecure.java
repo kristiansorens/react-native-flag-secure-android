@@ -1,7 +1,7 @@
 // Adapted from
 // https://github.com/corbt/react-native-keep-awake
 
-package com.kristiansorens.flagsecure;
+package com.staltz.flagsecure;
 
 import android.app.Activity;
 import android.view.WindowManager;

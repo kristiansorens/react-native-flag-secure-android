@@ -8,12 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kristiansorens/react-native-flag-secure-android.git"
+    "url": "git+https://github.com/staltz/react-native-flag-secure-android.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kristiansorens/react-native-flag-secure-android/issues"
+    "url": "https://github.com/staltz/react-native-flag-secure-android/issues"
   },
-  "homepage": "https://github.com/kristiansorens/react-native-flag-secure-android#readme"
+  "homepage": "https://github.com/staltz/react-native-flag-secure-android#readme"
 }

@@ -1,7 +1,7 @@
 // Adapted from
 // https://github.com/corbt/react-native-keep-awake
 
-package com.kristiansorens.flagsecure;
+package com.staltz.flagsecure;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.JavaScriptModule;
@@ -19,7 +19,7 @@ public class FlagSecurePackage implements ReactPackage {
         modules.add(new FlagSecure(reactContext));
         return modules;
     }
-    
+
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return new ArrayList<>();
